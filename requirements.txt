@@ -1,0 +1,19 @@
+# Core dependencies for LINE Bot
+line-bot-sdk>=3.0.0
+Flask>=2.3.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# AWS Lambda deployment (optional)
+boto3>=1.28.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Additional useful packages
+pydantic>=2.0.0  # For data validation
+httpx>=0.24.0    # Modern HTTP client
+loguru>=0.7.0    # Better logging
